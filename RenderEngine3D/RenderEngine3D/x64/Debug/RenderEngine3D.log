@@ -1,0 +1,30 @@
+﻿Compilación iniciada a las 14/08/2015 19:44:52.
+     1>Proyecto "H:\Uni\final\TFG\RenderEngine\RenderEngine3D\RenderEngine3D\RenderEngine3D.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Camera.cpp Light.cpp main.cpp Mesh.cpp Model.cpp ModelOld.cpp Shader.cpp Texture.cpp
+         Texture.cpp
+         Shader.cpp
+         ModelOld.cpp
+         Model.cpp
+         Mesh.cpp
+     1>Mesh.cpp(81): warning C4244: 'argumento' : conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+     1>Mesh.cpp(88): warning C4267: 'argumento' : conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+         main.cpp
+         Light.cpp
+         Camera.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Uni\final\TFG\RenderEngine\RenderEngine3D\x64\Debug\RenderEngine3D.exe" /INCREMENTAL /NOLOGO assimp.lib SOIL.lib opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Uni\final\TFG\RenderEngine\RenderEngine3D\x64\Debug\RenderEngine3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Uni\final\TFG\RenderEngine\RenderEngine3D\x64\Debug\RenderEngine3D.lib" /MACHINE:X64 x64\Debug\Camera.obj
+         x64\Debug\Light.obj
+         x64\Debug\main.obj
+         x64\Debug\Mesh.obj
+         x64\Debug\Model.obj
+         x64\Debug\ModelOld.obj
+         x64\Debug\Shader.obj
+         x64\Debug\Texture.obj
+     1>LINK : fatal error LNK1104: no se puede abrir el archivo 'glew32.lib'
+     1>Compilación del proyecto terminada "H:\Uni\final\TFG\RenderEngine\RenderEngine3D\RenderEngine3D\RenderEngine3D.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:04.87

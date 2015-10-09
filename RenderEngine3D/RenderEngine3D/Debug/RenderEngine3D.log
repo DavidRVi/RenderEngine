@@ -1,0 +1,27 @@
+﻿Compilación iniciada a las 17/09/2015 13:39:08.
+     1>Proyecto "H:\Uni\final\TFG\RenderEngine\RenderEngine3D\RenderEngine3D\RenderEngine3D.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>h:\uni\final\tfg\renderengine\renderengine3d\renderengine3d\main.cpp(105): warning C4316: 'Camera' : puede que el objeto asignado en el montón no esté alineado 16
+     1>h:\uni\final\tfg\renderengine\renderengine3d\renderengine3d\main.cpp(123): warning C4305: '+=' : truncamiento de 'double' a 'float'
+     1>h:\uni\final\tfg\renderengine\renderengine3d\renderengine3d\main.cpp(168): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>h:\uni\final\tfg\renderengine\renderengine3d\renderengine3d\main.cpp(191): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>h:\uni\final\tfg\renderengine\renderengine3d\renderengine3d\main.cpp(356): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Uni\final\TFG\RenderEngine\RenderEngine3D\Debug\RenderEngine3D.exe" /INCREMENTAL /NOLOGO assimp.lib SOIL.lib opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Uni\final\TFG\RenderEngine\RenderEngine3D\Debug\RenderEngine3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Uni\final\TFG\RenderEngine\RenderEngine3D\Debug\RenderEngine3D.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\Model.obj
+         Debug\Quad.obj
+         Debug\Shader.obj
+         Debug\Skybox.obj
+         Debug\Texture.obj
+         Debug\Triangle.obj
+         RenderEngine3D.vcxproj -> H:\Uni\final\TFG\RenderEngine\RenderEngine3D\Debug\RenderEngine3D.exe
+     1>Compilación del proyecto terminada "H:\Uni\final\TFG\RenderEngine\RenderEngine3D\RenderEngine3D\RenderEngine3D.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.13
